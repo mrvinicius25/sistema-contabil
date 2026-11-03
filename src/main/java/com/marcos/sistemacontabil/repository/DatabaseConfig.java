@@ -2,8 +2,6 @@ package com.marcos.sistemacontabil.repository;
 
 import java.sql.Statement;
 
-import com.sun.net.httpserver.Authenticator.Result;
-
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.ResultSet;

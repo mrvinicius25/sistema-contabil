@@ -7,12 +7,21 @@ target/
 .project
 .settings/
 
-# Banco de Daos local (gerado, não é código-fonte)
+# Outras IDEs (caso alguém abra o projeto nelas)
+.idea/
+*.iml
+.vscode/
+
+# Banco de dados local (gerado, não é código-fonte)
 *.db
+*.db-journal
+*.db-wal
+*.db-shm
 
 # Sistema Operacional
 Thumbs.db
 desktop.ini
+.DS_Store
 
 # Logs, se aparecerem
 *.log

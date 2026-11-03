@@ -1,0 +1,4 @@
+# Scripts de shell precisam de LF, senão quebram no Linux
+mvnw text eol=lf
+# Scripts do Windows ficam com CRLF
+*.cmd text eol=crlf
