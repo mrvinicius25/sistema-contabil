@@ -9,7 +9,6 @@ public class Main {
 		DatabaseConfig db = new DatabaseConfig("jdbc:sqlite:contabilidade.db");
 		try {
 			db.inicializar();
-			db.verificar();
 		}catch (SQLException e) {
 			System.err.println("Erro no banco: " + e.getMessage());
 		}
